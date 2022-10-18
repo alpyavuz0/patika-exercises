@@ -1,0 +1,49 @@
+.bg-yellow {
+    background-color: #FFC017;
+}
+
+.font-robot {
+    font-family: 'PT Serif', serif;
+}
+
+.btn-dark {
+    border-radius: 35px;
+    background-color:black;
+}
+.nav-item {
+    color: black;
+}
+
+.navbar {
+    height:75px;
+}
+
+.nav-2 {
+    font-weight: 400;
+}
+
+.display-1 {
+    color: black; }
+
+
+.aside-list>li {
+    
+    margin-bottom: 5px;
+}
+
+.small-aside {
+    font-size: 13px;
+    
+}
+
+.down-aside>li>a {
+
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.down-aside>li {
+
+    margin-right: 15px;
+    margin-bottom: 5px;
+}

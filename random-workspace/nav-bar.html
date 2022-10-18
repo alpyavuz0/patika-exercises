@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+        }
+
+        .navbar {
+            margin: 0;
+            background-color: #fff;
+        }
+
+        .nav {
+            display: flex;
+            padding: 15px 30px 15px 30px;
+            justify-content: space-between;
+            box-shadow: 0px 5px 10px rgb(0, 0, 0, .7);
+            margin: 0;
+        }
+
+        .nav-left {
+            display: inline-flex;
+            align-items: center;
+            padding: 5px 15px;
+        }
+
+        .nav-right {
+            display: inline-flex;
+            align-items: center;
+            padding: 5px 15px;
+        }
+
+        .logo>a {
+            margin-right: 3.5rem;
+            width: 50px;
+            font-size: 21px;
+            font-weight: 900;
+            text-decoration: none;
+            color: #000;
+            transition: all 0.1s ease 0ms;
+        }
+
+        .logo>a:hover {
+            color:  rgb(221, 58, 58);
+        }
+
+        .menu-items>a {
+            margin-right: 1rem;
+            font-size: 12px;
+            text-decoration: none;
+            color: black;
+            transition: all 0.1s ease 0ms;
+            font-weight: bold;
+        }
+
+        .menu-items>a:hover {
+            color: rgb(221 , 58, 58);
+        }
+        @media (max-width:250px){ .navbar{}}
+            
+        
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav">
+            <div class="nav-left">
+                <div class="logo">
+                    <a href="#"> LOGO</a>
+                </div>
+                <div class="menu-items">
+                    <a href="#">Menu</a>
+                </div>
+                <div class="menu-items">
+                    <a href="#">Updates</a>
+                </div>
+                <div class="menu-items">
+                    <a href="#">Stories</a>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="menu-items">
+                    <a href="#">
+                        Last Updates
+                    </a>
+                </div>
+                <div class="menu-items">
+                    <a href="#">
+                        Market
+                    </a>
+                </div>
+                <div class="menu-items">
+                    <a href="#">
+                        Sign In
+                    </a>
+                </div>
+                <div class="menu-items">
+                    <a href="#">
+                        Sign Up
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="deneme.js"></script>
+</body>
+
+</html>

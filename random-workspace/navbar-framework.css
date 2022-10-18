@@ -1,0 +1,52 @@
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, .0);
+    height: 84px;
+    display: flex;
+}
+
+.container-sm {
+    justify-content: space-between;
+    display: flex;
+}
+
+
+
+.container-fluid {
+    background-image: url(/assets/L23UNW.jpg);
+    height: calc(759px - 6rem);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-width: 640px;
+
+}
+
+.navbar-nav {
+    margin-left:auto;
+}
+
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, .0);
+}
+
+.intro-row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-col  {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-spans {
+    text-align: center;
+    justify-content: center;
+}
